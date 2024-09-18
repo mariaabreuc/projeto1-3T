@@ -35,7 +35,7 @@ footer p {
     background-color: aquamarine;
     height: 100%;
 }
-
+.
 .cartao__conteudo h3 {
     background-color: tomato;
     text-align: left;
@@ -46,9 +46,21 @@ footer p {
     font-size: 1vw;
 
 }
+
 .lista-menu {
     display: none;
-    }
-    .container__botao:checked ~ .lista-menu {
-        display: block;
-        }
+    position: absolute;
+    top: 100%;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
